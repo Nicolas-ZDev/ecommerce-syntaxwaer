@@ -21,7 +21,7 @@
 
 .hero-content{
     color: #ffffff;
-    max-width: 360px;
+    max-width: 350px;
     text-align: center;
 
 }
@@ -46,3 +46,35 @@
 }
 
 
+@media(max-width:768px){
+    .hero-section{
+        height: 680px;
+        background-image: url(../../images/banners/hero-mobile.jpg);
+    }
+
+    
+
+    .hero-overlay{
+        padding: 0;
+    }
+
+    .hero-content .hero-title{
+        font-size: 1.5rem;
+    }
+
+    .hero-content{
+        font-size: 1.5rem;
+    }
+
+    .hero-content{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .btn{
+        font-size: 1.2rem;
+    }
+
+
+
+}
